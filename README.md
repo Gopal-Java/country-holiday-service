@@ -37,16 +37,16 @@ mvn test
 ## Access API Endpoints
 The following endpoints are available:
 
-Get Last 3 Holidays for a Country
-
+## Get Last 3 Holidays for a Country
 Endpoint: GET /api/holidays/v1/last-three/{countryCode}/{year}
 Example: http://localhost:8080/v1/api/holidays/last-three/US/2024
-Get Count of Holidays Not on Weekends
 
+
+## Get Count of Holidays Not on Weekends
 Endpoint: GET /api/holidays/v1/no-weekends/{year}?countryCodes=NL,BE,GB
 Example: http://localhost:8080/api/holidays/v1/no-weekends/2024?countryCodes=NL,BE,GB
-Get Shared Holidays Between Two Countries
 
+## Get Shared Holidays Between Two Countries
 Endpoint: GET /api/holidays/v1/shared/{year}?countryCode1=GB&countryCode2=NL
 Example: http://localhost:8080/api/holidays/v1/shared/2024?countryCode1=GB&countryCode2=NL
 
