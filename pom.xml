@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.sample.holiday</groupId>
 	<artifactId>country-holiday-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>country-holiday-service</name>
 	<description>Demo project for Spring Boot country-holiday-service</description>
 	<url />
