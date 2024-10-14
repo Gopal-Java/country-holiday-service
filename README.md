@@ -26,7 +26,7 @@ mvn -version
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/Gopal-Java/country-holiday-service/)
 
 ## Run the Application
 
@@ -49,3 +49,9 @@ Get Shared Holidays Between Two Countries
 
 Endpoint: GET /api/holidays/v1/shared/{year}?countryCode1=GB&countryCode2=NL
 Example: http://localhost:8080/api/holidays/v1/shared/2024?countryCode1=GB&countryCode2=NL
+
+## Utility Rest API to delete the caches if required.
+# Specific country Purge the cache
+http://localhost:8080/api/holidays/v1/cache/2024/GB
+# All country Purge the cache
+http://localhost:8080/api/holidays/v1/cache/all
