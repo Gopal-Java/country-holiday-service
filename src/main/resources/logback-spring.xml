@@ -11,7 +11,6 @@
                 <pattern>${LOG_PATTERN}</pattern>
             </encoder>
         </appender>
-
         <!-- File Appender for writing logs to a file -->
         <appender name="File" class="ch.qos.logback.core.FileAppender">
             <file>${LOG_FILE}</file>
